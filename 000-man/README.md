@@ -90,5 +90,5 @@ From that point, you are ready to learn freeRtr CLI !
 
 You can continue your networking journey with freeRtr [here](http://docs.freertr.org/guides/getting-started/001-hello-world/)
 
-> PS: The architecture in the [articles](http://docs.freertr.org/guides/getting-started/001-hello-world/) is different from the  Metropolita Area Network use case above, you'd have to transpose the example presented in the series of article to use case architecture.
+> PS: The architecture in the [articles](http://docs.freertr.org/guides/getting-started/001-hello-world/) is different from the  Metropolita Area Network use case above. It won't be a cut'n paste experience therefore you'd have to get inspiration from the example and adapt it to the architecture depicted in the [diagram](syvik-2-diagram.png)
 
