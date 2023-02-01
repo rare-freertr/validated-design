@@ -1,4 +1,4 @@
-# Metropolitan Area Network use case
+# Metropolitan Area Network use case [EMPTY CONFIGURATION]
 
 ## Clone repository
 
