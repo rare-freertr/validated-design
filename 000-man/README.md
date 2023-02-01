@@ -14,5 +14,5 @@ java -jar ../../rtr.jar test tester criann path ../ tmppath ../000-run-empty/ wa
 From that point you should have a running lab as depicted in the diagram below
 
 ## Diagram
-![syvik2-diagram.png](syvik2-diagram.png)
+![syvik-2-diagram.png](syvik-2-diagram.png)
 
