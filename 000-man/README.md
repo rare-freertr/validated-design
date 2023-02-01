@@ -86,3 +86,9 @@ welcome
 line ready
 cfr200001#
 ```
+From that point, you are ready to learn freeRtr CLI !
+
+You can continue your networking journey with freeRtr [here](http://docs.freertr.org/guides/getting-started/001-hello-world/)
+
+> PS: The architecture in the [articles](http://docs.freertr.org/guides/getting-started/001-hello-world/) is different from the  Metropolita Area Network use case above, you'd have to transpose the example presented in the series of article to use case archotecture.
+
