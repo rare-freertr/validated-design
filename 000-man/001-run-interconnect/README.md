@@ -34,13 +34,14 @@ Interconnect subnet is 10.0.`id-a``id-b`.[0|1] /31
 
 For example `leh10001` and `leh200001` are interconnected with subnet: `10.0.12.0/31`
 
-* IPv6 rule
+* IPv6 rule:
 
 Interconnect subnet is fd00:200:971:`id-a``id-b`::[0|1] /31[
 
 For example `leh10001` and `leh200001` are interconnected with subnet: `fd00:200:971:12::/127`
 
 * Node Loopback0 rule:
+
 10.0.0.`id`/32
 
 fd00:200:971::`id`/128
