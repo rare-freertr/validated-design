@@ -15,10 +15,15 @@ From that point you should have a running lab as depicted in the diagram below
 
 ### Each router has an id:
 `leh100001` has id `1`
+
 `leh200001` has id `2`
+
 `uro100001` has id `3`
+
 `uro200001` has id `4`
+
 `cfr100001` has id `5`
+
 `cfr200001` has id `6`
 
 ### interconnect subnet
@@ -26,15 +31,18 @@ From that point you should have a running lab as depicted in the diagram below
 * IPv4 rule:
 
 Interconnect subnet is 10.0.`id-a``id-b`.[0|1] /31
+
 For example `leh10001` and `leh200001` are interconnected with subnet: `10.0.12.0/31`
 
 * IPv6 rule
 
 Interconnect subnet is fd00:200:971:`id-a``id-b`::[0|1] /31[
+
 For example `leh10001` and `leh200001` are interconnected with subnet: `fd00:200:971:12::/127`
 
 * Node Loopback0 rule:
 10.0.0.`id`/32
+
 fd00:200:971::`id`/128
 
 ## Verification
