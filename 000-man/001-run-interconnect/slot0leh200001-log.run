@@ -1,0 +1,9 @@
+
+
+
+criann.tst - leh200001 - unnamed:
+2023-02-02 14:57:58 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 14:58:01 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 14:58:01 info cfgInit.doInit:cfgInit.java:1020 boot completed

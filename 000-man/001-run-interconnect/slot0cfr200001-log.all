@@ -1,0 +1,78 @@
+
+
+
+criann.tst - cfr200001 - unnamed:
+
+
+
+criann.tst - cfr200001 - unnamed:
+
+
+
+criann.tst - cfr200001 - unnamed:
+
+
+
+criann.tst - cfr200001 - unnamed:
+
+
+
+criann.tst - cfr200001 - unnamed:
+2023-02-02 12:05:23 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 12:05:24 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 12:05:24 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 12:05:27 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 12:05:27 info cfgInit.doInit:cfgInit.java:1020 boot completed
+
+
+
+criann.tst - cfr200001 - unnamed:
+2023-02-02 12:06:01 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 12:06:02 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 12:06:02 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 12:06:05 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 12:06:05 info cfgInit.doInit:cfgInit.java:1020 boot completed
+
+
+
+criann.tst - cfr200001 - unnamed:
+2023-02-02 13:31:26 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 13:31:26 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 13:31:26 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 13:31:28 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 13:31:28 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-02 13:34:35 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54503
+2023-02-02 13:35:32 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54503
+2023-02-02 13:36:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0001.2222 at ethernet2
+2023-02-02 13:37:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:39:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:39:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0001.2222 at ethernet2
+2023-02-02 13:41:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:42:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0001.2222 at ethernet2
+2023-02-02 13:43:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:45:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:45:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0001.2222 at ethernet2
+2023-02-02 13:47:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:48:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0001.2222 at ethernet2
+2023-02-02 13:49:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:51:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:51:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0001.2222 at ethernet2
+2023-02-02 13:53:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:54:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0001.2222 at ethernet2
+2023-02-02 13:55:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:57:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:57:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0001.2222 at ethernet2
+2023-02-02 13:59:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:59:39 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54797
+2023-02-02 14:00:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0001.2222 at ethernet2
+2023-02-02 14:01:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 14:01:47 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54797
+
+
+
+criann.tst - cfr200001 - unnamed:
+2023-02-02 14:32:42 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 14:32:43 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 14:32:43 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 14:32:45 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 14:32:45 info cfgInit.doInit:cfgInit.java:1020 boot completed

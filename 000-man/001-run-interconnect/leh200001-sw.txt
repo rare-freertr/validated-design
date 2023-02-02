@@ -1,0 +1,75 @@
+hostname leh200001
+buggy
+!
+logging file debug ../001-run-interconnect/slot0leh200001-log.run
+!
+vrf definition CORE
+ exit
+!
+vrf definition tester
+ exit
+!
+interface loopback0
+ description leh200001-id-2
+ vrf forwarding CORE
+ ipv4 address 10.0.0.2 255.255.255.255
+ ipv6 address fd00:200:971::2 ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet1
+ description leh200001@eth1 -> leh100001@eth1
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 10.0.12.1 255.255.255.254
+ ipv6 address fd00:200:971:12::1 ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet2
+ description leh200001@eth2 -> uro100001@eth2
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 10.0.23.0 255.255.255.254
+ ipv6 address fd00:200:971:23:: ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ no shutdown
+ no log-link-change
+ exit
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+server telnet tester
+ security protocol telnet
+ no exec authorization
+ no login authentication
+ vrf tester
+ exit
+!
+!
+end

@@ -1,0 +1,13 @@
+
+
+
+criann.tst - uro100001 - unnamed:
+2023-02-02 14:57:58 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 14:58:01 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 14:58:01 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-02 14:59:30 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 55779
+2023-02-02 14:59:45 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 55779
+2023-02-02 15:40:49 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 56482
+2023-02-02 15:43:29 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 56482

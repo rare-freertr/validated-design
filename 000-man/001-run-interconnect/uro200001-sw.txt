@@ -1,0 +1,75 @@
+hostname uro200001
+buggy
+!
+logging file debug ../001-run-interconnect/slot0uro200001-log.run
+!
+vrf definition CORE
+ exit
+!
+vrf definition tester
+ exit
+!
+interface loopback0
+ description uro200001-id-4
+ vrf forwarding CORE
+ ipv4 address 10.0.0.4 255.255.255.255
+ ipv6 address fd00:200:971::4 ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet1
+ description uro200001@eth1 -> uro100001@eth1
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 10.0.34.1 255.255.255.254
+ ipv6 address fd00:200:971:34::1 ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet2
+ description uro200001@eth2 -> cfr100001@eth2
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 10.0.45.0 255.255.255.254
+ ipv6 address fd00:200:971:45:: ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ no shutdown
+ no log-link-change
+ exit
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+server telnet tester
+ security protocol telnet
+ no exec authorization
+ no login authentication
+ vrf tester
+ exit
+!
+!
+end
