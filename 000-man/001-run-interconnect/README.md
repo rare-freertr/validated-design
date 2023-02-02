@@ -30,13 +30,13 @@ From that point you should have a running lab as depicted in the diagram below
 
 * IPv4 rule:
 
-Interconnect subnet is 10.0.`id-a``id-b`.[0|1] /31
+Interconnect subnet is 10.0.`id-a/id-b`.[0|1] /31
 
 For example `leh10001` and `leh200001` are interconnected with subnet: `10.0.12.0/31`
 
 * IPv6 rule:
 
-Interconnect subnet is fd00:200:971:`id-a``id-b`::[0|1] /31[
+Interconnect subnet is fd00:200:971:`id-a/id-b`::[0|1] /31[
 
 For example `leh10001` and `leh200001` are interconnected with subnet: `fd00:200:971:12::/127`
 
