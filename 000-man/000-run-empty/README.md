@@ -9,7 +9,7 @@ java -jar ../../../rtr.jar test tester criann path ./ tmppath ./ wait
 From that point you should have a running lab as depicted in the diagram below
 
 ## Diagram
-![syvik-2-diagram.png](syvik-2-diagram.png)
+![syvik-2-diagram.png](../syvik-2-diagram.png)
 
 ## Verification
 
