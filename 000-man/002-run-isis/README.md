@@ -22,8 +22,11 @@ In the present lab, we will test ISIS by redistributing `looback0` into the rout
 49.0200.0971.460<$ID>.00
 ```
 
-For example `leh100001` has id=`1`, thus its ISIS NSAP is: `49.0200.0971.460<$ID>.00`
-In this example, $ID is inferior to `9`. In case
+For example `leh100001` has id=`1`, thus its ISIS NSAP is: `49.0200.0971.4609.00`
+
+In this example, $ID is inferior to `9`. In case of more nore than `9`, `$ID` will have to use 2 digit.
+
+Assume we are deployong 10 nodes in thos lab, NSAP would be `49.0200.0971.4610.00`
 
 * Area level
 For flexibility's sake, let's use a ISIS Level 2 area only.
