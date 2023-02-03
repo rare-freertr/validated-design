@@ -32,7 +32,7 @@ Assume we are deployong 10 nodes in thos lab, NSAP would be `49.0200.0971.4610.0
 For flexibility's sake, let's use a ISIS Level 2 area only.
 
 * Integrated ISIS is used
-with wide metric and also dual topology for IPv4 and IPv6. Hence the CLI knobis: `multi-topology` and `afi-other enable`
+with wide metric and also dual topology for IPv4 and IPv6. Hence the CLI knobs: `multi-topology` and `afi-other enable`
 
 ## Verification
 
