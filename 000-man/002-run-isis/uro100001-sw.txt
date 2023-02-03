@@ -1,0 +1,92 @@
+hostname uro100001
+buggy
+!
+logging file debug ../001-run-interconnect/slot0uro100001-log.run
+!
+vrf definition CORE
+ exit
+!
+vrf definition tester
+ exit
+!
+router isis4 200971
+ vrf CORE
+ net-id 49.0200.0971.4603.00
+ traffeng-id ::
+ is-type level2
+ multi-topology
+ afi-other enable
+ afi-other redistribute connected
+ redistribute connected
+ exit
+!
+interface loopback0
+ description uro100001-id-3
+ vrf forwarding CORE
+ ipv4 address 10.0.0.3 255.255.255.255
+ ipv6 address fd00:200:971::3 ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet1
+ description uro100001@eth1 -> uro200001@eth1
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 10.0.34.0 255.255.255.254
+ ipv6 address fd00:200:971:34:: ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ router isis4 200971 enable
+ router isis4 200971 other-enable
+ router isis4 200971 circuit level2
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet2
+ description uro100001@eth2 -> leh200001@eth2
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 10.0.23.1 255.255.255.254
+ ipv6 address fd00:200:971:23::1 ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ router isis4 200971 enable
+ router isis4 200971 other-enable
+ router isis4 200971 circuit level2
+ no shutdown
+ no log-link-change
+ exit
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+server telnet tester
+ security protocol telnet
+ no exec authorization
+ no login authentication
+ vrf tester
+ exit
+!
+!
+end

@@ -1,9 +1,41 @@
-
-
-
-criann.tst - leh100001 - unnamed:
-2023-02-02 14:57:58 info cfgInit.doInit:cfgInit.java:776 booting
-2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:958 initializing hardware
-2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:964 applying defaults
-2023-02-02 14:58:01 info cfgInit.doInit:cfgInit.java:985 applying configuration
-2023-02-02 14:58:01 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-03 10:52:07 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-03 10:52:07 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-03 10:52:07 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-03 10:52:09 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-03 10:52:09 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-03 10:53:02 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-03 10:53:03 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-03 10:53:03 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-03 10:53:05 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-03 10:53:05 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-03 11:01:38 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53618
+2023-02-03 11:12:01 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53618
+2023-02-03 11:35:17 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54206
+2023-02-03 11:37:34 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54206
+2023-02-03 11:37:40 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54206
+2023-02-03 11:38:16 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54206
+2023-02-03 11:38:37 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54206
+2023-02-03 11:39:39 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54206
+2023-02-03 12:55:36 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 55097
+2023-02-03 12:58:08 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 55097
+2023-02-03 12:59:40 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 55134
+2023-02-03 13:21:49 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 55134
+2023-02-03 13:21:59 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 55134
+2023-02-03 13:22:06 error rtrIsisIface.routerUnConfig:rtrIsisIface.java:842 bad config command 'no router isis4 200971 circuit both '
+2023-02-03 13:22:18 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 55134
+2023-02-03 13:22:34 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 55134
+2023-02-03 13:22:40 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 55134
+2023-02-03 14:45:43 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.12.1 up
+2023-02-03 14:49:52 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.16.1 up
+2023-02-03 14:49:57 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 57023
+2023-02-03 14:50:16 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 57023
+2023-02-03 15:58:03 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-03 15:58:03 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-03 15:58:03 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-03 15:58:05 warning prtLocTcp.doAccept:prtLocTcp.java:145 server not found on port 23 from 127.0.0.1 58047
+2023-02-03 15:58:05 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-03 15:58:06 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-03 15:58:06 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.12.1 up
+2023-02-03 15:58:06 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.16.1 up
+2023-02-03 15:58:13 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 58049
+2023-02-03 15:58:25 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 58049

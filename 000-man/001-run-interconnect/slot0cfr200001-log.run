@@ -1,11 +1,23 @@
-
-
-
-criann.tst - cfr200001 - unnamed:
-2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:776 booting
-2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:958 initializing hardware
-2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:964 applying defaults
-2023-02-02 14:58:01 info cfgInit.doInit:cfgInit.java:985 applying configuration
-2023-02-02 14:58:02 info cfgInit.doInit:cfgInit.java:1020 boot completed
-2023-02-02 15:53:52 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 56654
-2023-02-02 15:55:21 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 56654
+2023-02-03 10:52:07 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-03 10:52:07 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-03 10:52:07 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-03 10:52:09 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-03 10:52:09 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-03 10:53:02 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-03 10:53:03 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-03 10:53:03 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-03 10:53:05 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-03 10:53:05 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-03 14:49:31 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 57007
+2023-02-03 14:49:50 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 57007
+2023-02-03 14:49:51 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.56.0 up
+2023-02-03 14:49:52 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.16.0 up
+2023-02-03 15:58:03 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-03 15:58:03 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-03 15:58:03 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-03 15:58:05 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-03 15:58:06 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-03 15:58:06 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.16.0 up
+2023-02-03 15:58:16 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.56.0 up
+2023-02-03 15:59:34 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 58062
+2023-02-03 15:59:38 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 58062

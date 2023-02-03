@@ -1,0 +1,92 @@
+hostname cfr100001
+buggy
+!
+logging file debug ../001-run-interconnect/slot0cfr100001-log.run
+!
+vrf definition CORE
+ exit
+!
+vrf definition tester
+ exit
+!
+router isis4 200971
+ vrf CORE
+ net-id 49.0200.0971.4605.00
+ traffeng-id ::
+ is-type level2
+ multi-topology
+ afi-other enable
+ afi-other redistribute connected
+ redistribute connected
+ exit
+!
+interface loopback0
+ description cfr100001-id-5
+ vrf forwarding CORE
+ ipv4 address 10.0.0.5 255.255.255.255
+ ipv6 address fd00:200:971::5 ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet1
+ description cfr100001@eth1 -> cfr200001@eth1
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 10.0.56.0 255.255.255.254
+ ipv6 address fd00:200:971:56:: ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ router isis4 200971 enable
+ router isis4 200971 other-enable
+ router isis4 200971 circuit level2
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet2
+ description cfr100001@eth2 -> uro200001@eth2
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 10.0.45.1 255.255.255.254
+ ipv6 address fd00:200:971:45::1 ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ router isis4 200971 enable
+ router isis4 200971 other-enable
+ router isis4 200971 circuit level2
+ no shutdown
+ no log-link-change
+ exit
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+server telnet tester
+ security protocol telnet
+ no exec authorization
+ no login authentication
+ vrf tester
+ exit
+!
+!
+end
