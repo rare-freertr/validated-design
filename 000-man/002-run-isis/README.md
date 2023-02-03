@@ -7,7 +7,7 @@ cd validated-design/000-man/002-run-isis
 java -jar ../../rtr.jar test tester criann path ./ tmppath ./ wait
 ```
 From that point you should have a running lab as depicted in the diagram below. This lab inherit from [interconnect](../001-run-interconnect)
-In the present lab, we will test ISIS by redistributing looback0 into the routing domain.
+In the present lab, we will test ISIS by redistributing `looback0` into the routing domain.
 
 ## Diagram
 ![syvik-2-diagram.png](../syvik-2-diagram.png)
