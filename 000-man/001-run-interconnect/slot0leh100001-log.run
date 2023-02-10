@@ -39,3 +39,72 @@
 2023-02-03 15:58:06 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.16.1 up
 2023-02-03 15:58:13 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 58049
 2023-02-03 15:58:25 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 58049
+2023-02-10 16:14:41 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-10 16:14:41 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-10 16:14:41 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-10 16:14:43 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-10 16:14:44 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-10 16:14:44 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.12.1 up
+2023-02-10 16:14:44 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.16.1 up
+2023-02-10 16:15:23 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53249
+2023-02-10 16:15:32 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53249
+2023-02-10 16:15:54 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53249
+2023-02-10 16:16:03 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53249
+2023-02-10 16:16:35 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:12::1 up
+2023-02-10 16:16:38 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.12.1 up
+2023-02-10 16:17:00 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.16.1 up
+2023-02-10 16:17:01 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:16::1 up
+2023-02-10 16:20:09 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-10 16:20:09 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-10 16:20:09 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-10 16:20:11 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-10 16:20:12 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-10 16:20:12 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.12.1 up
+2023-02-10 16:20:12 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.16.1 up
+2023-02-10 16:21:01 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53325
+2023-02-10 16:21:09 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53325
+2023-02-10 16:21:21 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:12::1 up
+2023-02-10 16:21:22 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.12.1 up
+2023-02-10 16:21:52 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.16.1 up
+2023-02-10 16:21:54 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:16::1 up
+2023-02-10 16:23:08 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53349
+2023-02-10 16:29:44 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53349
+2023-02-10 16:29:56 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53349
+2023-02-10 16:30:05 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53349
+2023-02-10 16:39:37 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53724
+2023-02-10 16:39:38 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53724
+2023-02-10 16:45:15 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54284
+2023-02-10 16:45:37 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54284
+2023-02-10 16:45:54 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54284
+2023-02-10 16:46:07 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54284
+2023-02-10 16:46:20 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54284
+2023-02-10 16:46:33 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54284
+2023-02-10 16:46:53 info rtrIsisNeigh.recvLsp:rtrIsisNeigh.java:702 got bad lsp from l2 10.0.16.1
+2023-02-10 16:47:01 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54284
+2023-02-10 16:47:02 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54284
+2023-02-10 16:48:18 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54552
+2023-02-10 16:48:32 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54552
+2023-02-10 16:48:51 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-10 16:48:52 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-10 16:48:52 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-10 16:48:54 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-10 16:48:55 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-10 16:48:55 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.12.1 up
+2023-02-10 16:48:55 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.16.1 up
+2023-02-10 16:49:02 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.16.1 up
+2023-02-10 16:49:03 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:16::1 up
+2023-02-10 16:49:04 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.12.1 up
+2023-02-10 16:49:08 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:12::1 up
+2023-02-10 16:58:03 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54730
+2023-02-10 16:58:04 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54730
+2023-02-10 17:10:14 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-10 17:10:14 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-10 17:10:14 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-10 17:10:16 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-10 17:10:17 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-10 17:10:17 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.16.1 up
+2023-02-10 17:10:24 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:12::1 up
+2023-02-10 17:10:27 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.16.1 up
+2023-02-10 17:10:27 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.12.1 up
+2023-02-10 17:10:29 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:16::1 up
+2023-02-10 17:10:31 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.12.1 up

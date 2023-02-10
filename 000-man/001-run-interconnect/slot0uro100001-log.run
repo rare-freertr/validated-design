@@ -21,3 +21,64 @@
 2023-02-03 15:58:06 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.23.0 up
 2023-02-03 15:58:54 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 58056
 2023-02-03 15:58:59 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 58056
+2023-02-10 16:14:41 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-10 16:14:41 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-10 16:14:41 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-10 16:14:43 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-10 16:14:44 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-10 16:14:44 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.34.1 up
+2023-02-10 16:14:44 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.23.0 up
+2023-02-10 16:16:36 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53264
+2023-02-10 16:16:36 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53264
+2023-02-10 16:16:42 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:23:: up
+2023-02-10 16:16:43 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.23.0 up
+2023-02-10 16:16:48 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:34::1 up
+2023-02-10 16:16:50 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.34.1 up
+2023-02-10 16:19:01 info ipMpls.gotMplsPack:ipMpls.java:973 received invalid label 757813 on ethernet2
+2023-02-10 16:19:02 info ipMpls.gotMplsPack:ipMpls.java:973 received invalid label 757813 on ethernet2
+2023-02-10 16:19:03 info ipMpls.gotMplsPack:ipMpls.java:973 received invalid label 757813 on ethernet2
+2023-02-10 16:19:04 info ipMpls.gotMplsPack:ipMpls.java:973 received invalid label 757813 on ethernet2
+2023-02-10 16:19:05 info ipMpls.gotMplsPack:ipMpls.java:973 received invalid label 757813 on ethernet2
+2023-02-10 16:20:09 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-10 16:20:09 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-10 16:20:09 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-10 16:20:11 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-10 16:20:12 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-10 16:20:12 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.34.1 up
+2023-02-10 16:20:12 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.23.0 up
+2023-02-10 16:21:23 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53336
+2023-02-10 16:21:23 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53336
+2023-02-10 16:21:30 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.23.0 up
+2023-02-10 16:21:30 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:23:: up
+2023-02-10 16:21:36 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:34::1 up
+2023-02-10 16:21:37 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.34.1 up
+2023-02-10 16:30:15 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53517
+2023-02-10 16:30:16 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53517
+2023-02-10 16:39:49 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 53730
+2023-02-10 16:39:50 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 53730
+2023-02-10 16:47:17 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54532
+2023-02-10 16:47:18 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54532
+2023-02-10 16:48:51 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-10 16:48:52 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-10 16:48:52 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-10 16:48:54 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-10 16:48:55 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-10 16:48:55 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.34.1 up
+2023-02-10 16:48:55 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.23.0 up
+2023-02-10 16:49:03 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.23.0 up
+2023-02-10 16:49:03 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.34.1 up
+2023-02-10 16:49:04 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:34::1 up
+2023-02-10 16:49:07 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:23:: up
+2023-02-10 16:58:20 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54735
+2023-02-10 16:58:21 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54735
+2023-02-10 17:10:14 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-10 17:10:14 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-10 17:10:14 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-10 17:10:16 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-10 17:10:17 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-10 17:10:17 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.34.1 up
+2023-02-10 17:10:17 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.23.0 up
+2023-02-10 17:10:25 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.34.1 up
+2023-02-10 17:10:26 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:34::1 up
+2023-02-10 17:10:28 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:23:: up
+2023-02-10 17:10:30 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.23.0 up
