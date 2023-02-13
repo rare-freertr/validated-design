@@ -77,3 +77,5 @@
 2023-02-10 17:10:26 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:34:: up
 2023-02-10 17:10:29 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor 10.0.45.1 up
 2023-02-10 17:10:31 warning rtrLdpNeigh.run:rtrLdpNeigh.java:769 neighbor fd00:200:971:45::1 up
+2023-02-10 18:21:09 error rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:633 neighbor level2 10.0.45.1 forgot us
+2023-02-10 18:21:09 warning rtrIsisNeigh.readHelloTlvs:rtrIsisNeigh.java:644 neighbor level2 10.0.45.1 up

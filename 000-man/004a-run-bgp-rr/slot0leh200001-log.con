@@ -1,0 +1,5 @@
+
+tx:terminal no monitor
+tx:terminal length 0
+tx:terminal table fancy
+tx:write
