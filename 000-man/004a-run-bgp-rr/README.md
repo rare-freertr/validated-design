@@ -1,6 +1,6 @@
 # Metropolitan Area Network use case [bgp-rr]
 
-## BGP with route relector config
+## BGP with route reflector config
 
 ```
 cd validated-design/000-man/004a-run-bgp-rr
