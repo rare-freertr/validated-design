@@ -10,7 +10,7 @@ From that point you should have a running lab as depicted in the diagram below. 
 In the present lab, we will enable BGP on top of ISIS and MPLS-LDP
 
 ## Diagram
-![syvik-2-diagram.png](../syvik-2-diagram.png)
+![syvik-2-diagram.png](../syvik-2-bgp-rr-diagram.png)
 
 ## Assumptions
 
