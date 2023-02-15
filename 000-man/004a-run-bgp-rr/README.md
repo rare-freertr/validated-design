@@ -4,7 +4,7 @@
 
 ```
 cd validated-design/000-man/004a-run-bgp-rr
-java -jar ../../rtr.jar test tester criann path ./ tmppath ./ wait
+java -jar ../../rtr.jar test tester criann path ./ temp ./ wait
 ```
 From that point you should have a running lab as depicted in the diagram below. This lab inherit from [isis-ldp](../003b-run-isis-ldp)
 In the present lab, we will enable BGP on top of ISIS and MPLS-LDP
