@@ -4,7 +4,7 @@
 
 ```
 cd validated-design/000-man/000-run-empty
-java -jar ../../rtr.jar test tester criann path ./ tmppath ./ wait
+java -jar ../../rtr.jar test tester criann path ./ temp ./ wait
 ```
 From that point you should have a running lab as depicted in the diagram below
 
