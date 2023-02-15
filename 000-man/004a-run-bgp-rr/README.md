@@ -37,8 +37,10 @@ vdc definition rr1
 ```
 
 > When VDC s created for the fisrt time, it will be effective only:
-> After having issue `wr` on `leh20001` and `uro20001`
-> The command above will require a warm reboot of `leh20001` and `uro20001`
+
+   After having issue `wr` on `leh20001` and `uro20001`
+   
+   The command above will require a warm reboot of `leh20001` and `uro20001`
 
  * Example
 ```
