@@ -4,7 +4,7 @@
 
 ```
 cd validated-design/000-man/003-run-isis-ldp
-java -jar ../../rtr.jar test tester criann path ./ tmppath ./ wait
+java -jar ../../rtr.jar test tester criann path ./ temp ./ wait
 ```
 From that point you should have a running lab as depicted in the diagram below. This lab inherit from [isis](../002-run-isis)
 In the present lab, we will implment MPLS LDP enabled on top of ISIS
