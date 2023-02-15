@@ -18,8 +18,6 @@ router isis4 200971
  is-type level2
  multi-topology
  afi-other enable
- afi-other redistribute connected
- redistribute connected
  exit
 !
 interface loopback0
@@ -30,6 +28,10 @@ interface loopback0
  mpls enable
  mpls ldp4
  mpls ldp6
+ router isis4 200971 enable
+ router isis4 200971 other-enable
+ router isis4 200971 passive
+ router isis4 200971 circuit level2
  no shutdown
  no log-link-change
  exit
@@ -64,6 +66,56 @@ interface ethernet2
  router isis4 200971 circuit level2
  no shutdown
  no log-link-change
+ exit
+!
+router bgp4 1
+ vrf CORE
+ local-as 200971
+ router-id 10.0.0.3
+ no safe-ebgp
+ address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 10.0.0.254 remote-as 200971
+ neighbor 10.0.0.254 local-as 200971
+ neighbor 10.0.0.254 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 10.0.0.254 distance 200
+ neighbor 10.0.0.254 update-source loopback0
+ neighbor 10.0.0.254 pmsitun
+ neighbor 10.0.0.254 next-hop-self
+ neighbor 10.0.0.254 send-community all
+ neighbor 10.0.0.255 remote-as 200971
+ neighbor 10.0.0.255 local-as 200971
+ neighbor 10.0.0.255 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 10.0.0.255 distance 200
+ neighbor 10.0.0.255 update-source loopback0
+ neighbor 10.0.0.255 pmsitun
+ neighbor 10.0.0.255 next-hop-self
+ neighbor 10.0.0.255 send-community all
+ redistribute connected
+ redistribute static
+ exit
+!
+router bgp6 1
+ vrf CORE
+ local-as 200971
+ router-id 10.0.0.3
+ no safe-ebgp
+ address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor fd00:200:971::fe remote-as 200971
+ neighbor fd00:200:971::fe local-as 200971
+ neighbor fd00:200:971::fe address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor fd00:200:971::fe distance 200
+ neighbor fd00:200:971::fe update-source loopback0
+ neighbor fd00:200:971::fe pmsitun
+ neighbor fd00:200:971::fe send-community all
+ neighbor fd00:200:971::ff remote-as 200971
+ neighbor fd00:200:971::ff local-as 200971
+ neighbor fd00:200:971::ff address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor fd00:200:971::ff distance 200
+ neighbor fd00:200:971::ff update-source loopback0
+ neighbor fd00:200:971::ff pmsitun
+ neighbor fd00:200:971::ff send-community all
+ redistribute connected
+ redistribute static
  exit
 !
 !

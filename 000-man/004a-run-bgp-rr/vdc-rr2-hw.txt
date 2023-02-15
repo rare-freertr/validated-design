@@ -1,0 +1,8 @@
+hwid tester-slot0-rr2
+hwsn null
+rwpath ./
+port 34202 34250
+prio 0
+jvm 
+url http://www.freertr.org/
+int ethernet666 eth 002a.5526.5500 127.0.0.1 34201 127.0.0.1 34200

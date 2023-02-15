@@ -6,8 +6,8 @@
 cd validated-design/000-man/003-run-isis-ldp
 java -jar ../../rtr.jar test tester criann path ./ tmppath ./ wait
 ```
-From that point you should have a running lab as depicted in the diagram below. This lab inherit from [interconnect](../001-run-interconnect)
-In the present lab, we will test MPLS LDP enabled on top of ISIS
+From that point you should have a running lab as depicted in the diagram below. This lab inherit from [isis](../002-run-isis)
+In the present lab, we will implment MPLS LDP enabled on top of ISIS
 
 ## Diagram
 ![syvik-2-diagram.png](../syvik-2-diagram.png)

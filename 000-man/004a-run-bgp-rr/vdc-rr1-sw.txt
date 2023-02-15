@@ -1,0 +1,110 @@
+hostname leh200001-rr1
+buggy
+!
+!
+access-list RR4-CLIENT
+ sequence 10 permit 0 10.0.0.0 255.255.255.240 all any all
+ exit
+!
+access-list RR6-CLIENT
+ sequence 10 permit 0 fd00:200:971:: ffff:ffff:ffff:ffff:ffff:ffff:ffff:fff0 all any all
+ exit
+!
+vrf definition CORE
+ label4mode host-route
+ label6mode host-route
+ exit
+!
+router isis4 200971
+ vrf CORE
+ net-id 49.0200.0971.46fe.00
+ traffeng-id ::
+ is-type level2
+ multi-topology
+ afi-other enable
+ exit
+!
+interface loopback0
+ description leh200001-rr1-id-254
+ vrf forwarding CORE
+ ipv4 address 10.0.0.254 255.255.255.255
+ ipv6 address fd00:200:971::fe ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ mpls enable
+ mpls ldp4
+ mpls ldp6
+ router isis4 200971 enable
+ router isis4 200971 other-enable
+ router isis4 200971 passive
+ router isis4 200971 circuit level2
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet666
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 10.2.254.1 255.255.255.254
+ ipv6 address fd00:200:971:2:fe::1 ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ mpls enable
+ mpls ldp4
+ mpls ldp6
+ router isis4 200971 enable
+ router isis4 200971 other-enable
+ router isis4 200971 circuit level2
+ no shutdown
+ no log-link-change
+ exit
+!
+router bgp4 1
+ vrf CORE
+ local-as 200971
+ router-id 10.0.0.254
+ no safe-ebgp
+ address-family unicast multicast vpnuni ovpnuni vpls evpn
+ template peers remote-as 200971
+ template peers local-as 200971
+ template peers address-family unicast multicast vpnuni ovpnuni vpls evpn
+ template peers distance 200
+ template peers update-source loopback0
+ template peers pmsitun
+ template peers route-reflector-client
+ template peers send-community all
+ listen RR4-CLIENT peers
+ redistribute connected
+ redistribute static
+ exit
+!
+router bgp6 1
+ vrf CORE
+ local-as 200971
+ router-id 10.0.0.254
+ no safe-ebgp
+ address-family unicast multicast vpnuni ovpnuni vpls evpn
+ template peers remote-as 200971
+ template peers local-as 200971
+ template peers address-family unicast multicast vpnuni ovpnuni vpls evpn
+ template peers distance 200
+ template peers update-source loopback0
+ template peers pmsitun
+ template peers route-reflector-client
+ template peers send-community all
+ listen RR6-CLIENT peers
+ redistribute connected
+ redistribute static
+ exit
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+end
