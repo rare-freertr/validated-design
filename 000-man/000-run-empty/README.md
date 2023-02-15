@@ -1,4 +1,4 @@
-# Metropolitan Area Network use case [EMPTY CONFIGURATION]
+# Metropolitan Area Network use case
 
 ## Empty config
 
