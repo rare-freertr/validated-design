@@ -1,0 +1,129 @@
+
+
+
+criann.tst - uro100001 - unnamed:
+
+
+
+criann.tst - uro100001 - unnamed:
+
+
+
+criann.tst - uro100001 - unnamed:
+
+
+
+criann.tst - uro100001 - unnamed:
+
+
+
+criann.tst - uro100001 - unnamed:
+2023-02-02 12:05:23 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 12:05:24 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 12:05:24 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 12:05:27 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 12:05:27 info cfgInit.doInit:cfgInit.java:1020 boot completed
+
+
+
+criann.tst - uro100001 - unnamed:
+2023-02-02 12:06:01 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 12:06:02 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 12:06:02 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 12:06:05 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 12:06:05 info cfgInit.doInit:cfgInit.java:1020 boot completed
+
+
+
+criann.tst - uro100001 - unnamed:
+2023-02-02 13:31:26 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 13:31:26 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 13:31:26 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 13:31:28 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 13:31:28 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-02 13:31:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:31:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet1
+2023-02-02 13:33:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:33:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet1
+2023-02-02 13:33:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0004.1111 at ethernet2
+2023-02-02 13:35:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:35:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet1
+2023-02-02 13:36:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0004.1111 at ethernet2
+2023-02-02 13:37:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:37:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet1
+2023-02-02 13:39:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:39:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet1
+2023-02-02 13:39:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0004.1111 at ethernet2
+2023-02-02 13:41:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:41:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet1
+2023-02-02 13:42:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0004.1111 at ethernet2
+2023-02-02 13:43:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:43:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet1
+2023-02-02 13:45:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:45:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet1
+2023-02-02 13:45:29 info ipIfc4arp.recvPack:ipIfc4arp.java:289 ipv4 address conflict with 0000.0004.1111 at ethernet2
+2023-02-02 13:46:28 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 54621
+2023-02-02 13:46:43 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 54621
+2023-02-02 13:47:29 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 13:47:42 info ipIfc6nei.gotIcmpPack:ipIfc6nei.java:208 ipv6 address conflict at ethernet2
+2023-02-02 14:19:27 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 55021
+2023-02-02 14:20:34 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 55021
+2023-02-02 14:21:43 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 55021
+2023-02-02 14:22:02 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 55021
+
+
+
+criann.tst - uro100001 - unnamed:
+2023-02-02 14:32:42 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 14:32:42 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 14:32:43 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 14:32:44 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 14:32:45 info cfgInit.doInit:cfgInit.java:1020 boot completed
+
+
+
+criann.tst - uro100001 - unnamed:
+2023-02-02 14:57:58 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-02 14:57:59 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-02 14:58:01 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-02 14:58:01 info cfgInit.doInit:cfgInit.java:1020 boot completed
+2023-02-02 14:59:30 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 55779
+2023-02-02 14:59:45 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 55779
+2023-02-02 15:40:49 warning userLineHandler.doExec:userLine.java:875 <nobody> configuring from local:telnet <loop> 23 -> 127.0.0.1 56482
+2023-02-02 15:43:29 warning userLineHandler.doExec:userLine.java:907 <nobody> configured from local:telnet <loop> 23 -> 127.0.0.1 56482
+
+
+
+criann.tst - uro100001 - unnamed:
+2023-02-03 09:44:06 info cfgInit.doInit:cfgInit.java:776 booting
+2023-02-03 09:44:07 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-02-03 09:44:07 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-02-03 09:44:10 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-02-03 09:44:11 info cfgInit.doInit:cfgInit.java:1020 boot completed
+
+
+
+criann.tst - uro100001 - unnamed:
+2023-03-03 10:50:07 info cfgInit.doInit:cfgInit.java:776 booting
+2023-03-03 10:50:09 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-03-03 10:50:09 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-03-03 10:50:13 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-03-03 10:50:14 info cfgInit.doInit:cfgInit.java:1020 boot completed
+
+
+
+criann.tst - uro100001 - unnamed:
+2023-03-03 12:35:16 info cfgInit.doInit:cfgInit.java:776 booting
+2023-03-03 12:35:17 info cfgInit.doInit:cfgInit.java:958 initializing hardware
+2023-03-03 12:35:17 info cfgInit.doInit:cfgInit.java:964 applying defaults
+2023-03-03 12:35:21 info cfgInit.doInit:cfgInit.java:985 applying configuration
+2023-03-03 12:35:22 info cfgInit.doInit:cfgInit.java:1020 boot completed
+
+
+
+criann.tst - uro100001 - unnamed:
+
+
+
+criann.tst - uro100001 - unnamed:

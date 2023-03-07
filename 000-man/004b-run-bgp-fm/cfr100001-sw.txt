@@ -1,0 +1,219 @@
+hostname cfr100001
+buggy
+!
+logging file debug ../001-run-interconnect/slot0cfr100001-log.run
+!
+vrf definition CORE
+ label4mode host-route
+ label6mode host-route
+ exit
+!
+vrf definition tester
+ exit
+!
+router isis4 200971
+ vrf CORE
+ net-id 49.0200.0971.4605.00
+ traffeng-id ::
+ is-type level2
+ multi-topology
+ afi-other enable
+ afi-other redistribute connected
+ redistribute connected
+ exit
+!
+interface loopback0
+ description cfr100001
+ vrf forwarding CORE
+ ipv4 address 194.199.218.220 255.255.255.255
+ ipv6 address 2001:660:2001:abcd::5 ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+ mpls enable
+ mpls ldp4
+ mpls ldp6
+ router isis4 200971 enable
+ router isis4 200971 other-enable
+ router isis4 200971 passive
+ router isis4 200971 circuit level2
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet1
+ description cfr100001@eth1 -> cfr200001@eth1
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 194.199.218.136 255.255.255.254
+ ipv6 address 2001:660:2001:abcd:56:: ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ mpls enable
+ mpls ldp4
+ mpls ldp6
+ router isis4 200971 enable
+ router isis4 200971 other-enable
+ router isis4 200971 circuit level2
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet2
+ description cfr100001@eth2 -> uro200001@eth2
+ lldp enable
+ vrf forwarding CORE
+ ipv4 address 194.199.218.135 255.255.255.254
+ ipv6 address 2001:660:2001:abcd:45::1 ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe
+ mpls enable
+ mpls ldp4
+ mpls ldp6
+ router isis4 200971 enable
+ router isis4 200971 other-enable
+ router isis4 200971 circuit level2
+ no shutdown
+ no log-link-change
+ exit
+!
+router bgp4 1
+ vrf CORE
+ local-as 64919
+ router-id 194.199.218.220
+ address-family unicast multicast vpnuni ovpnuni vpls evpn
+ !
+ neighbor 194.199.218.216 remote-as 64919
+ neighbor 194.199.218.216 local-as 64919
+ neighbor 194.199.218.216 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 194.199.218.216 distance 200
+ neighbor 194.199.218.216 update-source loopback0
+ neighbor 194.199.218.216 pmsitun
+ neighbor 194.199.218.216 next-hop-self
+ neighbor 194.199.218.216 send-community all
+ !
+ neighbor 194.199.218.217 remote-as 64919
+ neighbor 194.199.218.217 local-as 64919
+ neighbor 194.199.218.217 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 194.199.218.217 distance 200
+ neighbor 194.199.218.217 update-source loopback0
+ neighbor 194.199.218.217 pmsitun
+ neighbor 194.199.218.217 next-hop-self
+ neighbor 194.199.218.217 send-community all
+ !
+ neighbor 194.199.218.218 remote-as 64919
+ neighbor 194.199.218.218 local-as 64919
+ neighbor 194.199.218.218 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 194.199.218.218 distance 200
+ neighbor 194.199.218.218 update-source loopback0
+ neighbor 194.199.218.218 pmsitun
+ neighbor 194.199.218.218 next-hop-self
+ neighbor 194.199.218.218 send-community all
+ !
+ neighbor 194.199.218.219 remote-as 64919
+ neighbor 194.199.218.219 local-as 64919
+ neighbor 194.199.218.219 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 194.199.218.219 distance 200
+ neighbor 194.199.218.219 update-source loopback0
+ neighbor 194.199.218.219 pmsitun
+ neighbor 194.199.218.219 next-hop-self
+ neighbor 194.199.218.219 send-community all
+ !
+ neighbor 194.199.218.221 remote-as 64919
+ neighbor 194.199.218.221 local-as 64919
+ neighbor 194.199.218.221 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 194.199.218.221 distance 200
+ neighbor 194.199.218.221 update-source loopback0
+ neighbor 194.199.218.221 pmsitun
+ neighbor 194.199.218.221 next-hop-self
+ neighbor 194.199.218.221 send-community all
+ !
+ !
+ redistribute connected
+ redistribute static
+ exit
+!
+router bgp6 1
+ vrf CORE
+ local-as 64919
+ router-id 194.199.218.220
+ address-family unicast multicast vpnuni ovpnuni vpls evpn
+ !
+ neighbor 2001:660:2001:abcd::1 remote-as 64919
+ neighbor 2001:660:2001:abcd::1 local-as 64919
+ neighbor 2001:660:2001:abcd::1 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 2001:660:2001:abcd::1 distance 200
+ neighbor 2001:660:2001:abcd::1 update-source loopback0
+ neighbor 2001:660:2001:abcd::1 pmsitun
+ neighbor 2001:660:2001:abcd::1 send-community all
+ !
+ neighbor 2001:660:2001:abcd::2 remote-as 64919
+ neighbor 2001:660:2001:abcd::2 local-as 64919
+ neighbor 2001:660:2001:abcd::2 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 2001:660:2001:abcd::2 distance 200
+ neighbor 2001:660:2001:abcd::2 update-source loopback0
+ neighbor 2001:660:2001:abcd::2 pmsitun
+ neighbor 2001:660:2001:abcd::2 send-community all
+ !
+ neighbor 2001:660:2001:abcd::3 remote-as 64919
+ neighbor 2001:660:2001:abcd::3 local-as 64919
+ neighbor 2001:660:2001:abcd::3 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 2001:660:2001:abcd::3 distance 200
+ neighbor 2001:660:2001:abcd::3 update-source loopback0
+ neighbor 2001:660:2001:abcd::3 pmsitun
+ neighbor 2001:660:2001:abcd::3 send-community all
+ !
+ neighbor 2001:660:2001:abcd::4 remote-as 64919
+ neighbor 2001:660:2001:abcd::4 local-as 64919
+ neighbor 2001:660:2001:abcd::4 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 2001:660:2001:abcd::4 distance 200
+ neighbor 2001:660:2001:abcd::4 update-source loopback0
+ neighbor 2001:660:2001:abcd::4 pmsitun
+ neighbor 2001:660:2001:abcd::4 send-community all
+ !
+ neighbor 2001:660:2001:abcd::6 remote-as 64919
+ neighbor 2001:660:2001:abcd::6 local-as 64919
+ neighbor 2001:660:2001:abcd::6 address-family unicast multicast vpnuni ovpnuni vpls evpn
+ neighbor 2001:660:2001:abcd::6 distance 200
+ neighbor 2001:660:2001:abcd::6 update-source loopback0
+ neighbor 2001:660:2001:abcd::6 pmsitun
+ neighbor 2001:660:2001:abcd::6 send-community all
+ !
+ !
+ redistribute connected
+ redistribute static
+ exit
+!
+console0
+ no exec authorization
+ no login authentication
+ exit
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+server telnet tester
+ security protocol telnet
+ no exec authorization
+ no login authentication
+ vrf tester
+ exit
+!
+!
+end
