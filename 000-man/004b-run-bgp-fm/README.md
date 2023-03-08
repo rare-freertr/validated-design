@@ -1,4 +1,4 @@
-# Metropolitan Area Network use case [interconnect]
+# Metropolitan Area Network use case [bgp-fm]
 
 ## Interconnect config
 
