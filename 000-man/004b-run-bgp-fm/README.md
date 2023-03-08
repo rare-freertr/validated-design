@@ -21,7 +21,7 @@ We used the public subnet `194.199.218.128/28` split into 8 subnets `/31`
 
 * Node Loopback0 rule (IPv6):
 
-2001:660:2001:abcd::`id`/128
+2001:660:2001: abcd::`id`/128
 
 ## Verification
 
