@@ -1,6 +1,6 @@
 # Metropolitan Area Network use case [bgp-fm]
 
-## Interconnect config
+## BGP Fully Meshed
 
 ```
 cd validated-design/000-man/001-run-interconnect
