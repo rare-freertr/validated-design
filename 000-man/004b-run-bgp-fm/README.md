@@ -6,7 +6,8 @@
 cd validated-design/000-man/001-run-interconnect
 java -jar ../../rtr.jar test tester criann path ./ temp ./ wait
 ```
-From there you should have the replica of a regional network in production that would have BGP Fully Meshed.
+From there, you should have a replica of a production regional network with fully meshed BGP.
+
 
 ## Diagram
 ![syvik-2-diagram.png](../syvik-2-diagram.png)
