@@ -3,7 +3,7 @@
 ## BGP Fully Meshed
 
 ```
-cd validated-design/000-man/001-run-interconnect
+cd validated-design/000-man/004b-run-bgp-fm
 java -jar ../../rtr.jar test tester criann path ./ temp ./ wait
 ```
 From there, you should have a replica of a production regional network with fully meshed BGP.
