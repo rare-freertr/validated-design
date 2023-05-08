@@ -1,3 +1,12 @@
+EDIT: 
+'
+
+wget http://www.freertr.org/rtr.jar well, then try the same with .net at least from 3 different countries first :)))
+
+aaand, anything more you can tell us please? :)))))
+
+"
+
 # validated-design
 RARE/freeRTr Validated Design
 
